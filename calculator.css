@@ -1,0 +1,69 @@
+body, div, section, a, span, p, button, input {
+  font-family: Tahoma;
+  line-height: 1;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 900;
+}
+button {
+  cursor: pointer;
+}
+#container {
+  width: 222px;
+  margin: 50px auto;
+  padding: 10px;
+  background: #EEEEEE;
+  border: 1px solid #E0E0E0;
+}
+#display {
+  width: 190px;
+  margin: 5px;
+  text-align: right;
+  padding: 20px 15px;
+  border-radius: 5px;
+  background: #EF6C00;
+  color: #FFF;
+}
+#display .clean {
+  float: left;
+  font-size: 17px;
+  border-radius: 50%;
+  background: #FFF;
+  color: #EF6C00;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+#inputs {
+  height: 205px;
+}
+#numbers {
+  width: 150px;
+  float: left;
+}
+#operations {
+  width: 50px;
+  float: right;
+}
+.defaultButton {
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  margin: 5px;
+  width: 40px;
+  padding: 10px 0;
+  text-align: center;
+}
+#numbers .defaultButton {
+  background: #1976D2;
+  border: 1px solid #1565C0;
+  color: #FFF;
+}
+#numbers .defaultButton.greenBtn {
+  background: #558B2F;
+  color: #FFF;
+}
+#operations .defaultButton {
+  background: #757575;
+  color: #FFF;
+}
